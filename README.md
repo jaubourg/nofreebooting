@@ -1,4 +1,4 @@
-This is the source code for [this chrome extension]().
+This is the source code for [this chrome extension](https://chrome.google.com/webstore/detail/no-video-freebooting/efojlgflkaapgbbnaafginhdkfijkldb).
 
 The extension removes videos uploaded on Facebook from your timeline.
 
