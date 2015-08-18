@@ -1,0 +1,64 @@
+.nofreebooting {
+    box-sizing: border-box !important;
+    position: relative !important;
+    display: block !important;
+    position: absolute !important;
+    width: 100% !important;
+    height: 100% !important;
+    left: 0 !important;
+    top: 0 !important;
+    z-index: 200 !important;
+    background: rgb( 233, 234, 237 ) !important;
+    margin: 0 !important;
+}
+
+.nofreebooting * {
+    box-sizing: border-box !important;
+}
+
+.nofreebooting-warning {
+    display: block !important;
+    position: relative !important;
+    top: 50% !important;
+    margin-top: -1030px !important;
+    height: 2000px !important;
+    text-align: center !important;
+    line-height: 2000px !important;
+    width: 100% !important;
+    padding: 20px !important;
+    color: red !important;
+    text-decoration: underline !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+.nofreebooting-warning:hover, .nofreebooting-warning:visited {
+    color: red !important;
+    text-decoration: none !important;
+    font-size: 20px !important;
+    font-weight: bold !important;
+}
+
+.nofreebooting-ok {
+    display: inline-block !important;
+    position: absolute !important;
+    bottom: 16px !important;
+    right: 16px !important;
+    padding: 0 8px !important;
+    text-align: right !important;
+    background-color: rgb( 107, 185, 51 ) !important;
+    background-image: url( https://fbstatic-a.akamaihd.net/rsrc.php/v2/y1/r/wL6VQj7Ab77.png ) !important;
+    background-position: 0px -649px !important;
+    background-repeat: repeat-x !important;
+    box-shadow: rgba( 0, 0, 0, 0.0470588 ) 0px 1px 1px 0px !important;
+    line-height: 22px !important;
+    color: white !important;
+    border-radius: 2px !important;
+    border: 1px solid rgb( 81, 159, 24 ) !important;
+    border-bottom-color: rgb( 64, 151, 1 ) !important;
+    border-top-color: rgb( 96, 166, 46 ) !important;
+    text-decoration: none !important;
+    font-family: helvetica, arial, sans-serif !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+}
